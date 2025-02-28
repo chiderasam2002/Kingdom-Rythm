@@ -1,0 +1,61 @@
+*{
+    color: none;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: none;
+}
+
+body{
+    background-color:#f4f4f4;
+
+}
+
+li{
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.mobile{
+    display: none;
+}
+
+
+
+header{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+
+
+}
+
+header .menu1{
+    display: none;
+}
+
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+
+
+}
+
+
+header nav ul li a{
+    padding: 40px;
+}
+
