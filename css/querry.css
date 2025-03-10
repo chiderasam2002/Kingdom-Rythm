@@ -1,7 +1,7 @@
 @media screen and (max-width:900px){
    
-    header nav ul li a{
-        padding: 20px;
+    header nav ul li{
+        margin: 20px;
     }
 
 }
@@ -24,8 +24,8 @@
       width:250px;
       height: 100vh;
       z-index:999;
-      background-color: rgba(60, 59, 59, 0.062);
-      backdrop-filter: blur(30px);
+      background-color: rgba(181, 90, 57, 0.521);
+      backdrop-filter: blur(10px);
       box-shadow: -10px 0 10px rgba(0, 0, 0, 0, 0.1);
       display:none ;
       flex-direction: column;
@@ -74,7 +74,15 @@
     }
     
     
-
+    header ul li  .active{
+       
+        padding:10px;
+        border-radius:10px ;
+        
+    
+    }
+    
+    
 
  
 

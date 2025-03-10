@@ -14,7 +14,7 @@ a{
 }
 
 body{
-    background-color:#f4f4f4;
+    background-color:  rgba(193, 153, 138, 0.479);
 
 }
 
@@ -31,12 +31,12 @@ li{
 
 header{
     margin-top: auto;
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    
-
+    background-color: rgba(181, 90, 57, 0.521);
+    border-radius: 20px;
 
 }
 
@@ -45,17 +45,33 @@ header .menu1{
 }
 
 
+
 header nav ul{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items:center;
-
-
+    flex-direction: row;
 }
 
+
+header nav ul li{
+    margin: 50px;
+}
 
 header nav ul li a{
-    padding: 40px;
+    color: rgb(249, 245, 245);
+    
 }
+
+header ul  .active {
+    color:white;
+    background-color:rebeccapurple;
+    padding:10px;
+    border-radius:10px;
+    
+
+}
+
+
+
 
