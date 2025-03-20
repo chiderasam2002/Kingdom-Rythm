@@ -1,8 +1,88 @@
+
+@media screen and (max-width:1100px){
+
+
+    .newsletter{
+        margin: 50px 0;
+        border-radius: 10px;
+        background-color: aliceblue;
+        width: 100%;
+        
+    }
+    
+    form{
+     background-color:rgba(181, 90, 57, 0.521);
+     border-radius:10px ;
+     padding: 20px;
+     text-align:justify;
+     justify-content:center;
+     align-items: center;
+     width: 100%;
+     
+      
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:900px){
    
     header nav ul li{
         margin: 20px;
     }
+
+
+
+    
+/* form design */
+
+.newsletter{
+    margin: 50px 0;
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 100%;
+    
+}
+
+form{
+ background-color:rgba(181, 90, 57, 0.521);
+ border-radius:10px ;
+ padding: 20px;
+ text-align:justify;
+ justify-content:center;
+ align-items: center;
+ width: 100%;
+ 
+  
+}
+
+
+
+
+
+
+
+
+/* form design ends */
+
+
+
+
 
 }
 
@@ -81,6 +161,52 @@
         
     
     }
+
+
+    /* form design */
+
+.newsletter{
+    margin: 50px 0;
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 100%;
+    
+}
+
+form{
+ background-color:rgba(181, 90, 57, 0.521);
+ border-radius:10px ;
+ padding: 20px;
+ text-align:justify;
+ justify-content:center;
+ align-items: center;
+ width: 100%;
+ 
+  
+}
+
+form .input-control input{
+    height: 35px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+form .button {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* form design ends */
+
+
+
     
     
 

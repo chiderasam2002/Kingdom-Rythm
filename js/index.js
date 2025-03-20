@@ -1,18 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function showHeader(){
     const header = document.querySelector('header')
     header.style.display = 'flex'
@@ -22,6 +8,10 @@ function hideHeader(){
     const header = document.querySelector('header')
     header.style.display = 'none'
 }
+
+
+
+
 
 
 
