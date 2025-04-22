@@ -77,6 +77,8 @@ header ul  .active {
 
 .hero h4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:auto ;
+    text-align: center;
     
 }
 
@@ -84,6 +86,18 @@ header ul  .active {
     color:orangered;
     font-size: larger;
     
+}
+
+
+.afro-gospel{
+    margin: 100px 0 50px 0;
+    text-align: center;
+}
+
+
+.video-sermon{
+    margin: 100px 0 50px 0;
+    text-align: center;
 }
 
 /* form design */
@@ -124,6 +138,7 @@ form .input-control input{
     border-radius: 10px;
     width: 80%;
     padding: 10px;
+    
 }
 
 form .button button{
@@ -138,14 +153,30 @@ form .button button:hover{
 }
 
 form .input-control input, form .button button{
-    border: none;
+    border: rgb(243, 237, 237) solid 2px;
 }
+
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+    
+}
+
+.input-control .error {
+    color: #ff3860;
+    /* font-size: 9px;
+    height: 13px; */
+}
+
 /* form design ends */
-
-
-
-
-
 
 
 

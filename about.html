@@ -70,23 +70,40 @@
         <p>subscribe to our newsletter to get more info from us</p>
     </div>
 
-    <form action="#">
+    <form action="#" id="form">
+
+
+        <div class="input-control">
+            <label for="username">username:</label>
+            <input class="username" type="text" placeholder="John obi" multiple id="username">
+            <div class="error"></div>
+        </div>
+
+
         <div class="input-control">
             <label for="email">email:</label>
-            <input type="email" placeholder="josephadam@gmail.com">
+            <input class="email" type="email" placeholder="josephadam@gmail.com" multiple id="email">
+            <div class="error"></div>
+        </div>
+
+
+
+        <div class="input-control">
+            <label for="password"> password:</label>
+            <input class="password" type="password" placeholder="..........." id="password" >
             <div class="error"></div>
         </div>
 
         <div class="input-control">
-            <label for="password">password:</label>
-            <input type="email" placeholder="..........." >
+            <label for="password2">confirm password:</label>
+            <input class="password2" type="password" placeholder="..........." id="password2">
             <div class="error"></div>
         </div>
 
 
 
         <div class="button">
-            <button type="submit">subscribe</button>
+            <button class="button" type="submit">subscribe</button>
         </div>
 
 
